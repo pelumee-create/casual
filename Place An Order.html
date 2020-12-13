@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<form action="/records.html" method="post">
+    <h1>LET'S BAKE SOME CAKE</h1>
+    <P>Please it is important that you provide the neccesary information required for each field.</P>
+    <hr size="3">
+    <label for="name"><strong>Name</strong></label>
+    <br>
+    <input type="text" name="customer's name" id="name"><br>
+    <label for="phone number"><strong>Phone Number</strong></label>
+    <br>
+    <input id="phone number" name="customer's number" type="number" step="1"><br>
+    <label for="meal"><strong>What Would You Like to Order?</strong></label>
+    <br>
+    <input type="text" name="food" id="meal">
+    <p><strong>Choose Your Cake Flavor</strong></p>
+    <label for="vanilla">Vanilla</label>
+    <input id="vanilla" name="flavor" type="checkbox" value="vanilla">
+    <label for="chocolate">Chocolate</label>
+    <input id="chocolate" name="flavor" type="checkbox" value="chocolate">
+    <label for="red velvet">Red Velvet</label>
+    <input id="red velvet" name="flavor" type="checkbox" value="red velvet">
+    <label for="carrot">Carrot</label>
+    <input id="carrot" name="flavor" type="checkbox" value="carrot">
+    <label for="coconut">Coconut</label>
+    <input id="coconut" name="falvor" type="checkbox" value="coconut">
+    <p><strong>What Frostings would you Like?</strong></p>
+    <select id="frostings" name="frostings">
+    <option value="vanilla butter">Vanilla Butter Cream</option>
+    <option value="chocolate butter">Chocolate Butter Cream</option>
+    <option value="lemon butter">Lemon Butter Cream</option>
+    <option value="raspberry butter">Raspberry Butter Cream</option>
+    </select>
+    <p><strong>What Filling Would you Like?</strong></p>
+    <label for="fillings">Fillings</label>
+    <input type="text" list="fillings" id="filling" name="filling">
+    <datalist id="fillings">
+        <option value="fresh fruit">Fresh Fruit</option>
+        <option value="strawberry preserves">Strawberry Preserves</option>
+        <option value="pinneapple">Pinneapple</option>
+        <option value="vanilla bean custard">Vanilla Bean Custard</option>
+    </datalist>
+    <p><strong>Event</strong></p>
+    <label for="birthday">Birthday</label>
+    <input id="birthday" type="radio" name="birthday-wedding ceremony-anniversary">
+    <label for="wedding ceremony">Wedding Ceremony</label>
+    <input id="wedding ceremony" type="radio" name="birthday-wedding ceremony-anniversary">
+    <label for="anniversary">Anniversary</label>
+    <input id="anniversary" type="radio" name="birthday-wedding ceremony-anniversary">
+    <p><strong>Preferrable Size</strong></p>
+    <label for="size">Size</label>
+    <input id="size" name="size" type="range" min="0" max="10" step="1">
+    <p><strong>Delivery Address</strong></p>
+        <label for="address">Address</label>
+        <br>
+    <textarea id="address" name="address" rows="5" col="5"></textarea>
+    <p><strong>Expected Delivery Date</strong></p>
+    <input id="date" name="date" type="date"><br>
+    <p><strong>Anything Else you Would Like to Add?</strong></p>
+    <label for="comment">Comment</label>
+    <br>
+    <textarea id="comment" name="comment" rows="6" col="10"></textarea><br>
+    <input type="submit" value="SUBMIT">
+    <br>
+    <a href="index.html">RETRUN TO HOMEPAGE</a>
+</form>
